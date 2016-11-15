@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "strictNullChecks": true,
+        "allowUnreachableCode": false,
+        "declaration": false,
+        "outDir": "bin",
+        "rootDir": "src"        
+    },
+    "files": [
+        "src/app.ts",
+        "src/server.ts"
+    ]
+}

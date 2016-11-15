@@ -1,0 +1,10 @@
+"use strict";
+var http = require("http");
+var app_1 = require("./app");
+http.createServer(function (req, res) {
+    res.writeHead(200, { 'Content-Type': 'text/plain' });
+    app_1.OpenLaw.App.Run();
+    res.end('Hello World\n');
+}).listen(1337, '127.0.0.1');
+console.log('Server running at http://127.0.0.1:1337/');
+//# sourceMappingURL=server.js.map
