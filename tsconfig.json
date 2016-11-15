@@ -15,5 +15,11 @@
     "files": [
         "src/app.ts",
         "src/server.ts"
+    ],
+    
+    "exclude": [
+        "node_modules/",
+        "typings/"
     ]
+
 }
