@@ -1,6 +1,6 @@
 "use strict";
 var http = require("http");
-var app_1 = require("./app");
+var app_1 = require("./bin/app");
 http.createServer(function (req, res) {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
     app_1.OpenLaw.App.Run();

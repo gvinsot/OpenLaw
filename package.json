@@ -1,0 +1,13 @@
+
+{
+  "name": "openlaw",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node bin/server.js"
+  },  
+"license": "Apache",
+"engines": {
+    "node": "~0.10.0 || ~4.2.0"
+  }
+}
